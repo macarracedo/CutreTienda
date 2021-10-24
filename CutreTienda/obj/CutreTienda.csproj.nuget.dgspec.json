@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/manuel/RiderProjects/CutreTienda/CutreTienda/CutreTienda.csproj": {}
+    "C:\\Users\\Manuel\\RiderProjects\\CutreTienda\\CutreTienda\\CutreTienda.csproj": {}
   },
   "projects": {
-    "/home/manuel/RiderProjects/CutreTienda/CutreTienda/CutreTienda.csproj": {
+    "C:\\Users\\Manuel\\RiderProjects\\CutreTienda\\CutreTienda\\CutreTienda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/manuel/RiderProjects/CutreTienda/CutreTienda/CutreTienda.csproj",
+        "projectUniqueName": "C:\\Users\\Manuel\\RiderProjects\\CutreTienda\\CutreTienda\\CutreTienda.csproj",
         "projectName": "CutreTienda",
-        "projectPath": "/home/manuel/RiderProjects/CutreTienda/CutreTienda/CutreTienda.csproj",
-        "packagesPath": "/home/manuel/.nuget/packages/",
-        "outputPath": "/home/manuel/RiderProjects/CutreTienda/CutreTienda/obj/",
+        "projectPath": "C:\\Users\\Manuel\\RiderProjects\\CutreTienda\\CutreTienda\\CutreTienda.csproj",
+        "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Manuel\\RiderProjects\\CutreTienda\\CutreTienda\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/manuel/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

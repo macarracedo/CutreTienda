@@ -1,2 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<FACTURA_REPARACIONES />
+<reparaciones>
+  <reparacion>
+    <aparato>
+      <precio_hora>5</precio_hora>
+      <num_serie>3456</num_serie>
+      <modelo>345</modelo>
+    </aparato>
+    <duracion>PT4H33M</duracion>
+  </reparacion>
+</reparaciones>

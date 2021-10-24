@@ -1,6 +1,7 @@
 using System;
 using System.Reflection.Metadata.Ecma335;
 using System.Runtime.ExceptionServices;
+using System.Xml.Linq;
 
 namespace TiendaReparaciones
 {
@@ -25,6 +26,15 @@ namespace TiendaReparaciones
         public override string ToString()
         {
             return "Reparacion compleja : " + base.toString();
+        }
+
+        public override XElement toXML()
+        {
+            var raiz = base.toXML();
+            raiz.Name = "sust_piezas";
+            raiz.Add(new XElement("coste",this.Coste()));
+            
+            return raiz;
         }
     }
 }

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reparaciones>
+  <sust_piezas>
+    <radio>
+      <precio_hora>5</precio_hora>
+      <num_serie>25345</num_serie>
+      <modelo>5674</modelo>
+      <frecuencias>ambas</frecuencias>
+    </radio>
+    <duracion>PT4H37M</duracion>
+    <coste>45</coste>
+  </sust_piezas>
+</reparaciones>

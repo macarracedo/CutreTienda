@@ -56,7 +56,7 @@ namespace CutreTienda
                         la.Add(ap);
                         rep = Reparacion.FactoryMethod(ap, tiempoReparacion);
                         lr.Add(rep);
-                        Console.WriteLine("Introducido: \n" + ap + " " + rep);
+                        Console.WriteLine("\n \nIntroducido: \n"+ rep);
 
                         break;
                     
@@ -132,7 +132,7 @@ namespace CutreTienda
                 
             }while(introducirBooleano("Seguir?"));
             
-            guardarXML();
+            guardarXML(la,lr);
         }
         
         static int menu()
@@ -151,30 +151,27 @@ namespace CutreTienda
         static void cargarXML()
         {
             
+            /*
             XElement raiz = XElement.Load( "reparaciones.xml" );
 
             foreach (XElement subNodo in raiz.Elements())
             {
                 Console.WriteLine(subNodo);
             }
-            
+            */
         }
 
         static void guardarXML(List<Aparato> la, List<Reparacion> lr)
         {
-            XDocument raiz = new XDocument("datos.xml");
-            XElement aparatos = new XElement("lista_aparatos");
-            XElement reparaciones = new XElement("lista_reparaciones");
-            foreach (var ap in la)
-            {
-                aparatos.Add(ap.toXML());
-            }
-            raiz.Add(aparatos);
+            var raiz = new XDocument();
+            var reparaciones = new XElement("reparaciones");
+            
             foreach (var rep in lr)
             {
                 reparaciones.Add(rep.toXML());
             }
             raiz.Add(reparaciones);
+            raiz.Save("reparaciones2.xml");
         }
 
         static TimeSpan introducirTimeSpan(string msg)

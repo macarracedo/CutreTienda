@@ -1,3 +1,4 @@
+using System;
 using System.Xml.Linq;
 
 namespace TiendaReparaciones
@@ -18,12 +19,11 @@ namespace TiendaReparaciones
             return "Radio: " + base.ToString() + " Frecuencia: " + this.Frecuencias;
         }
 
-        public XElement toXML()
+        public override XElement toXML()
         {
             var raiz = base.toXML();
-            raiz.Name = "Radio";
-            raiz.Add(new XElement("Frecuencias",this.Frecuencias));
-            
+            raiz.Name = "radio";
+            raiz.Add(new XElement("frecuencias",this.Frecuencias));
             return raiz;
         }
     }

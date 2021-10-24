@@ -16,13 +16,13 @@ namespace TiendaReparaciones
         public bool Records { get; set; }
         public int RecTime { get; set; }
 
-        public XElement toXML()
+        public override XElement toXML()
         {
             var raiz = base.toXML();
-            raiz.Name = "RepDVD";
-            raiz.Add(new XElement("BlueRay", this.BlueRay));
-            raiz.Add(new XElement("Records", this.Records));
-            raiz.Add(new XElement("RecTime", this.RecTime));
+            raiz.Name = "rep_dvd";
+            raiz.Add(new XElement("blueRay", this.BlueRay));
+            raiz.Add(new XElement("records", this.Records));
+            raiz.Add(new XElement("rec_time", this.RecTime));
 
             return raiz;
         }

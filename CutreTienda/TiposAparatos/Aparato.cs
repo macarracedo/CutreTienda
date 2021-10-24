@@ -25,12 +25,12 @@ namespace TiendaReparaciones
                 return " Num. de serie: "+NSerie+" Modelo: "+Modelo +" Precio por hora: "+PrecioHora ;
             }
 
-            public XElement toXML()
+            public virtual XElement toXML()
             {
-                var raiz = new XElement("Aparato");
-                raiz.Add(new XElement("PrecioHora",this.PrecioHora));
-                raiz.Add(new XElement("NSerie",this.NSerie));
-                raiz.Add(new XElement("Modelo",this.Modelo));
+                var raiz = new XElement("aparato");
+                raiz.Add(new XElement("precio_hora",this.PrecioHora));
+                raiz.Add(new XElement("num_serie",this.NSerie));
+                raiz.Add(new XElement("modelo",this.Modelo));
 
                 return raiz;
             }

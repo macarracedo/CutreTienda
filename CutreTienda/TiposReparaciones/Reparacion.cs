@@ -33,10 +33,10 @@ namespace TiendaReparaciones
             return "Aparato: " + Aparato.ToString() + " Duracion: " + Duracion.ToString();
         }
 
-        public XElement toXML()
+        public virtual XElement toXML()
         {
             var raiz = new XElement("reparacion");
-            raiz.Add(new XElement("aparato: ",this.Aparato.toXML()));
+            raiz.Add(new XElement(this.Aparato.toXML()));
             raiz.Add(new XElement("duracion", this.Duracion));
 
             return raiz;

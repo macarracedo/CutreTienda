@@ -31,12 +31,12 @@ namespace TiendaReparaciones
         /// Esto hereda de <see cref="Aparato"/> con la información
         /// </summary>
         /// <returns></returns>
-        public XElement toXML()
+        public override XElement toXML()
         {
             var raiz = base.toXML();
-            raiz.Name = "AdapTDT";
-            raiz.Add(new XElement("Records", this.Records));
-            raiz.Add(new XElement("RecTime", this.RecTime));
+            raiz.Name = "adap_tdt";
+            raiz.Add(new XElement("records", this.Records));
+            raiz.Add(new XElement("rec_time", this.RecTime));
 
             return raiz;
         }

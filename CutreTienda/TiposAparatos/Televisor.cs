@@ -17,11 +17,11 @@ namespace TiendaReparaciones
             return "Televeisor. Pulgadas: "+Pulgadas+ base.ToString();
         }
 
-        public XElement toXML()
+        public override XElement toXML()
         {
             var raiz = base.toXML();
-            raiz.Name = "Televisor";
-            raiz.Add(new XElement("Pulgadas",this.Pulgadas));
+            raiz.Name = "televisor";
+            raiz.Add(new XElement("pulgadas",this.Pulgadas));
 
             return raiz;
         }

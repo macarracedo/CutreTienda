@@ -26,7 +26,7 @@ namespace TiendaReparaciones
             return "Sustitucion de piezas : " + base.toString();
         }
 
-        public XElement toXML()
+        public override XElement toXML()
         {
             var raiz = base.toXML();
             raiz.Name = "sust_piezas";
