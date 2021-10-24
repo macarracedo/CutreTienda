@@ -1,0 +1,16 @@
+/home/manuel/RiderProjects/CutreTienda/CutreTienda/bin/Debug/net5.0/CutreTienda
+/home/manuel/RiderProjects/CutreTienda/CutreTienda/bin/Debug/net5.0/CutreTienda.deps.json
+/home/manuel/RiderProjects/CutreTienda/CutreTienda/bin/Debug/net5.0/CutreTienda.runtimeconfig.json
+/home/manuel/RiderProjects/CutreTienda/CutreTienda/bin/Debug/net5.0/CutreTienda.runtimeconfig.dev.json
+/home/manuel/RiderProjects/CutreTienda/CutreTienda/bin/Debug/net5.0/CutreTienda.dll
+/home/manuel/RiderProjects/CutreTienda/CutreTienda/bin/Debug/net5.0/ref/CutreTienda.dll
+/home/manuel/RiderProjects/CutreTienda/CutreTienda/bin/Debug/net5.0/CutreTienda.pdb
+/home/manuel/RiderProjects/CutreTienda/CutreTienda/obj/Debug/net5.0/CutreTienda.csproj.AssemblyReference.cache
+/home/manuel/RiderProjects/CutreTienda/CutreTienda/obj/Debug/net5.0/CutreTienda.GeneratedMSBuildEditorConfig.editorconfig
+/home/manuel/RiderProjects/CutreTienda/CutreTienda/obj/Debug/net5.0/CutreTienda.AssemblyInfoInputs.cache
+/home/manuel/RiderProjects/CutreTienda/CutreTienda/obj/Debug/net5.0/CutreTienda.AssemblyInfo.cs
+/home/manuel/RiderProjects/CutreTienda/CutreTienda/obj/Debug/net5.0/CutreTienda.csproj.CoreCompileInputs.cache
+/home/manuel/RiderProjects/CutreTienda/CutreTienda/obj/Debug/net5.0/CutreTienda.dll
+/home/manuel/RiderProjects/CutreTienda/CutreTienda/obj/Debug/net5.0/ref/CutreTienda.dll
+/home/manuel/RiderProjects/CutreTienda/CutreTienda/obj/Debug/net5.0/CutreTienda.pdb
+/home/manuel/RiderProjects/CutreTienda/CutreTienda/obj/Debug/net5.0/CutreTienda.genruntimeconfig.cache
